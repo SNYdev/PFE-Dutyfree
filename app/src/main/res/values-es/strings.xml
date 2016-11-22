@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PFE-dutyfree ES</string>
+    <string name="currentLang"> Su lenguaje es : </string>
     <string name="hello_world">hola mundo</string>
 </resources>
