@@ -35,19 +35,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void goToEnActiv(View v){
         changeLanguage("en");
-        Intent refresh =  new Intent(this, Test.class);
+        Intent refresh =  new Intent(this, CatalogActivity.class);
         startActivity(refresh);
     }
 
     public void goToFrActiv(View v){
         changeLanguage("fr");
-        Intent refresh =  new Intent(this, Test.class);
+        Intent refresh =  new Intent(this, CatalogActivity.class);
         startActivity(refresh);
     }
 
     public void goToEsActiv(View v){
         changeLanguage("es");
-        Intent refresh =  new Intent(this, Test.class);
+        Intent refresh =  new Intent(this, CatalogActivity.class);
         startActivity(refresh);
     }
 

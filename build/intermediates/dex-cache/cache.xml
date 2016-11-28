@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-beta1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f81eecb8d5e9e548f75f277830a94a9b37fbb987">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0-beta1_9586b22ac8f5e794f62188a42b1587e2e8310a80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.9\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-core-1.9_d73ee81175d34585041ccc45a3060c37a638efa2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-beta1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d3137a71200c47974c0454ae8ad272a09c533eb">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0-beta1_fefde678b7a3e71fdc92f772644418779f28395d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.9\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-zxing-1.9_e5baeb0dd1209c28c6d59c4b0f7f6f9a5006a07f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-beta1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="97f82fd0c185bd2881a93646954f2429be4baa86">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0-beta1_5c1749a772c1696d56177d3ddc2c852bc227936e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-beta1\support-annotations-24.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="04705c19cdec60364bc04e2e928c274da1ba301b">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0-beta1_50d41ed15814673faf0644af23091d146d498655\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-beta1\jars\libs\internal_impl-24.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23d564c059873f398dc5d967f56791a66472ce76">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0-beta1_ad87b5392e624bb491e89150ee2b98c94659a3ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_47135256d063434ed41aebd03d471e7223796761\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="373fdee5936c5236c67207fcb18cd71dfe6c3f41">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c6185c8c95921369a18d85693616808cb4ca4797\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-beta1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c0208faf42864e6695345e64d1b955070263819">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0-beta1_fc45b94c34147ef1038043e2ad1ac974386803bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f58d0a8a152f73529e45efd1057418050eaf274e">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b7b0b2ec22bf9b71167d32bbc4d9f1d3b51db36\classes.dex" />
+    </item>
+
+</items>
