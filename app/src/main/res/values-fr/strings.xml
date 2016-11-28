@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PFE-dutyfree FR</string>
+    <string name="currentLang">Votre langue est :</string>
     <string name="hello_world">Bonjours tout le monde</string>
 </resources>
