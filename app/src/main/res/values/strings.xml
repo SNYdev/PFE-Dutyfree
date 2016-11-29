@@ -2,4 +2,10 @@
     <string name="app_name">PFE-dutyfree</string>
     <string name="currentLang"> Your language is : </string>
     <string name="hello_world">Hello world</string>
+    <string name="goToTicketForm">ORDER</string>
+    <string name="ticketNumber">Your ticket number</string>
+    <string name="sendTicketNumber">Send</string>
+    <string name="goToScan">Scan my ticket</string>
+    <string name="creditCardNumber">Your credit card number</string>
+    <string name="sendCreditCardNumber">FINALIZE MY ORDER</string>
 </resources>

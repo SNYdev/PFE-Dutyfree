@@ -21,21 +21,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-beta1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8d3137a71200c47974c0454ae8ad272a09c533eb">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0-beta1_fefde678b7a3e71fdc92f772644418779f28395d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.9\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
         <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-zxing-1.9_e5baeb0dd1209c28c6d59c4b0f7f6f9a5006a07f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-beta1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d3137a71200c47974c0454ae8ad272a09c533eb">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0-beta1_fefde678b7a3e71fdc92f772644418779f28395d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="373fdee5936c5236c67207fcb18cd71dfe6c3f41">
+        sha1="b24ce5caa778a2f483262a85326bb0c81a76308f">
         <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c6185c8c95921369a18d85693616808cb4ca4797\classes.dex" />
     </item>
     <item
@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f58d0a8a152f73529e45efd1057418050eaf274e">
+        sha1="829e0a0723bb5e2129c91e50d10409b9fe12b081">
         <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b7b0b2ec22bf9b71167d32bbc4d9f1d3b51db36\classes.dex" />
     </item>
 

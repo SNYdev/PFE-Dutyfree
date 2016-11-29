@@ -11,10 +11,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by user on 28/11/2016.
- */
-
 public class ProductAdapter extends ArrayAdapter<Product> {
     public ProductAdapter(Context context, List<Product> producte) {
         super(context, 0, producte);
