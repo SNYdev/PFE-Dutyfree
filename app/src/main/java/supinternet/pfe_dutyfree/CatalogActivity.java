@@ -22,13 +22,13 @@ public class CatalogActivity extends AppCompatActivity {
 
         mListView = (ListView) findViewById(R.id.listView);
 
-        List<Product> tweets = genererTweets();
+        List<Product> products = generateProducts();
 
-        ProductAdapter adapter = new ProductAdapter(CatalogActivity.this, tweets);
+        ProductAdapter adapter = new ProductAdapter(this, products);
         mListView.setAdapter(adapter);
     }
 
-    private List<Product> genererTweets(){
+    private List<Product> generateProducts(){
         List<Product> products = new ArrayList<Product>();
         products.add(new Product(Color.BLACK, "Florent", "Mon premier tweet !"));
         products.add(new Product(Color.BLUE, "Kevin", "C'est ici que ça se passe !"));
@@ -48,8 +48,8 @@ public class CatalogActivity extends AppCompatActivity {
         return products;
     }
 
-    public void goToTicketForm(View v){
-        Intent refresh =  new Intent(this, TicketFormActivity.class);
+    public void goToCart(View v){
+        Intent refresh =  new Intent(this, CartActivity.class);
         startActivity(refresh);
     }
 }

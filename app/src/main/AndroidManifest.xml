@@ -30,7 +30,8 @@
         <activity android:name=".CatalogActivity" />
         <activity android:name=".TicketFormActivity" />
         <activity android:name=".ScannerActivity" />
-        <activity android:name=".PaymentActivity"></activity>
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".CartActivity"></activity>
     </application>
 
 </manifest>

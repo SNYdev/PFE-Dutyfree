@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical|left"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        tools:text="Cigarrette Malboro"
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical|right"
+        android:paddingRight="10dp"
+        android:textColor="@android:color/black"
+        android:layout_toLeftOf="@+id/quantity"
+        tools:text="10€"
+        />
+
+    <NumberPicker
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textColor="@android:color/black"
+        tools:text="0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
