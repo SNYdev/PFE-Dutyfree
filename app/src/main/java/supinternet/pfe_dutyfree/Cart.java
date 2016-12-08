@@ -8,10 +8,12 @@ public class Cart {
     private String productName;
     private String price;
     private int quantity;
+    private String originalPrice;
 
     public Cart(String productName, String price, int quantity) {
         this.productName = productName;
         this.price = price;
+        this.originalPrice = price;
         this.quantity = quantity;
     }
 
@@ -25,6 +27,10 @@ public class Cart {
 
     public String getPrice() {
         return this.price;
+    }
+
+    public String getOriginalPrice() {
+        return this.originalPrice;
     }
 
     public void setPrice(String price) {
