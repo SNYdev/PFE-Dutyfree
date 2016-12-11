@@ -10,4 +10,8 @@
     <string name="creditCardNumber">Votre numéro de carte bancaire</string>
     <string name="creditCardCryptogram">Cryptogramme (3 dernier chiffre au dos de votre carte bancaire)</string>
     <string name="sendCreditCardNumber">Finnaliser ma commande</string>
+    <string name="cashPayment">Paiement en espèces</string>
+    <string name="cashPaymentCheckText">Votre commande sera prête 2h avant votre départ. Merci, à bientôt !</string>
+    <string name="currentLangButton">Suivant</string>
+    <string name="langSelect">Autres langues : </string>
 </resources>

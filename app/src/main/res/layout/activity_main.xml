@@ -16,6 +16,13 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/linearLayout">
 
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/logoDraw"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,7 +30,7 @@
             android:text="Medium Text"
             android:id="@+id/textCurrentLang"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="100dp" />
+            android:layout_marginTop="20dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -43,11 +50,28 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="ok"
+                android:id="@+id/currentLangButton"
+                android:onClick="goToCurrentLang"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/otherLangText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="English"
                 android:id="@+id/btnEn"
                 android:onClick="goToEnActiv"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="30dp" />
+                android:layout_gravity="center_horizontal" />
 
             <Button
                 android:layout_width="wrap_content"

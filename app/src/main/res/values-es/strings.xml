@@ -2,4 +2,16 @@
     <string name="app_name">PFE-dutyfree ES</string>
     <string name="currentLang"> Su lenguaje es : </string>
     <string name="hello_world">hola mundo</string>
+    <string name="goToCart">Ir a la Cesta</string>
+    <string name="goToTicketForm">orden</string>
+    <string name="ticketNumber">Su billete úmero</string>
+    <string name="sendTicketNumber">Enviar</string>
+    <string name="goToScan">Escanear mi boleto</string>
+    <string name="creditCardNumber">El número de su tarjeta de crédito</string>
+    <string name="creditCardCryptogram">Criptograma (3 último número en la parte posterior de la tarjeta)</string>
+    <string name="sendCreditCardNumber">Completar mi pedido</string>
+    <string name="cashPayment">Terminar mi pedido</string>
+    <string name="cashPaymentCheckText">Su pedido estará listo 2 horas antes de la salida. Gracias, hasta pronto !</string>
+    <string name="currentLangButton">Siguiente</string>
+    <string name="langSelect">Otros idiomas : </string>
 </resources>
