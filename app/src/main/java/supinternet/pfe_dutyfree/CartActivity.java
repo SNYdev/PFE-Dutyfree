@@ -11,21 +11,25 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.NumberPicker;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class CartActivity extends ActionBarActivity {
     ListView mListView;
+    HashMap<String, String> data = new HashMap<String, String>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
-
         mListView = (ListView) findViewById(R.id.listView);
-
+        Intent i = getIntent();
+        data = (HashMap<String, String>) i.getSerializableExtra("shopList");
         List<Cart> cart = generateCartProducts();
-
         CartAdapter adapter = new CartAdapter(this, cart);
         mListView.setAdapter(adapter);
 
@@ -33,10 +37,16 @@ public class CartActivity extends ActionBarActivity {
 
     private List<Cart> generateCartProducts(){
         List<Cart> cart = new ArrayList<Cart>();
-        cart.add(new Cart("Cigarette Malboro", "15", 1));
-        cart.add(new Cart("Parfum Coco CHANNEL", "60", 1));
-        cart.add(new Cart("Crocodile Haribo", "1.50", 3));
+        for (HashMap.Entry<String, String> entry : data.entrySet()){
+            cart.add(new Cart(entry.getKey(), entry.getValue(), 1));
+        }
         return cart;
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        System.out.println("Back pressed : "+ data);
     }
 
     public void goToTicketForm(View v){

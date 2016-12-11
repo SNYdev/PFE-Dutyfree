@@ -12,12 +12,16 @@ import android.util.DisplayMetrics;
 import android.view.View;
 
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
     String currentLang;
-    String languageChoice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textCurrentLang = (TextView) findViewById(R.id.textCurrentLang);
         textCurrentLang.setText(R.string.currentLang);
+
     }
 
     public void goToEnActiv(View v){
