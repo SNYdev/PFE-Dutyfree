@@ -4,7 +4,6 @@
     <string name="hello_world">Hello world</string>
     <string name="goToCart">View cart</string>
     <string name="goToTicketForm">Order</string>
-
     <string name="ticketNumber">Your ticket number</string>
     <string name="sendTicketNumber">Send</string>
     <string name="goToScan">Scan my ticket</string>
@@ -13,7 +12,6 @@
     <string name="sendCreditCardNumber">Finalize my order</string>
     <string name="cashPayment">cash payment</string>
     <string name="cashPaymentCheckText">Your order will be ready 2h before your departure. Thanks see you soon !</string>
-
     <string name="currentLangButton">Following</string>
     <string name="langSelect">Other language : </string>
 </resources>

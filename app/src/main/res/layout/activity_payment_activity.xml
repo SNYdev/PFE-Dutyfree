@@ -14,13 +14,6 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin">
 
-
-        <TextView
-            android:id="@+id/text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!" />
-
         <EditText
             android:id="@+id/creditCardNumber"
             android:layout_height="wrap_content"
@@ -43,7 +36,7 @@
             android:id="@+id/sendCreditCardNumber"
             android:layout_height="wrap_content"
             android:text="@string/sendCreditCardNumber"
-            android:onClick="sendCreditCardNumber"
+            android:onClick="goToPaymentCheckActivity"
             android:layout_width="fill_parent">
         </Button>
 

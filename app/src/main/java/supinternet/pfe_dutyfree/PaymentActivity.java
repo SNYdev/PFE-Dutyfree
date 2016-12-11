@@ -13,10 +13,6 @@ public class PaymentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment_activity);
-        Intent i = getIntent();
-        String code = i.getStringExtra("CatalogActivity.code");
-        TextView textView = (TextView)findViewById(R.id.text_view);
-        textView.setText(code);
 
         Button cashPayement = (Button) findViewById(R.id.cashPayment);
         cashPayement.setText(R.string.cashPayment);

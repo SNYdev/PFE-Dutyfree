@@ -4,7 +4,7 @@
     <string name="hello_world">Bonjours tout le monde</string>
     <string name="goToCart">Accéder au panier</string>
     <string name="goToTicketForm">Commander</string>
-    <string name="ticketNumber">Votre uméro de ticket</string>
+    <string name="ticketNumber">Votre numéro de ticket</string>
     <string name="sendTicketNumber">Envoyer</string>
     <string name="goToScan">Scanner mon ticket</string>
     <string name="creditCardNumber">Votre numéro de carte bancaire</string>
