@@ -33,7 +33,6 @@ public class CatalogActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalog);
         Intent i = getIntent();
-        System.out.println(i);
 
         mListView = (ListView) findViewById(R.id.listView);
         final List<Product> products = generateProducts();

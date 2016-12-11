@@ -32,6 +32,7 @@ public class CartAdapter extends ArrayAdapter<Cart> {
             viewHolder.productName = (TextView) convertView.findViewById(R.id.productName);
             viewHolder.price = (TextView) convertView.findViewById(R.id.price);
             viewHolder.quantity = (NumberPicker) convertView.findViewById(R.id.quantity);
+            viewHolder.quantity.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
             viewHolder.quantity.setMinValue(1);
             viewHolder.quantity.setMaxValue(20);
             viewHolder.quantity.setWrapSelectorWheel(false);

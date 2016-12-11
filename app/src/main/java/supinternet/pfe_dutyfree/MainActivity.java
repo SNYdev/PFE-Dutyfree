@@ -5,14 +5,22 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -28,13 +36,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        currentLang = Locale.getDefault().getDisplayLanguage();
+        Button currentLangButton = (Button) findViewById(R.id.currentLangButton);
+        TextView otherLang = (TextView) findViewById(R.id.otherLangText);
 
+        otherLang.setText(R.string.langSelect);
+        currentLangButton.setText(R.string.currentLangButton);
+
+        currentLang = Locale.getDefault().getDisplayLanguage();
         TextView currentLangString = (TextView) findViewById(R.id.currentLang);
         currentLangString.setText(currentLang);
-
         TextView textCurrentLang = (TextView) findViewById(R.id.textCurrentLang);
         textCurrentLang.setText(R.string.currentLang);
+        ImageView dutyStoreLogo = (ImageView) findViewById(R.id.logoDraw);
+        dutyStoreLogo.setImageResource(R.drawable.logotextdutystore);
 
     }
 
@@ -53,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
     public void goToEsActiv(View v){
         changeLanguage("es");
         Intent refresh =  new Intent(this, CatalogActivity.class);
+        startActivity(refresh);
+    }
+
+    public void goToCurrentLang(View v){
+        Intent refresh = new Intent(this, CatalogActivity.class);
         startActivity(refresh);
     }
 
