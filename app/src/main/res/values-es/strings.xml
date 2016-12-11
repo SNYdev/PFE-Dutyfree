@@ -14,4 +14,5 @@
     <string name="cashPaymentCheckText">Su pedido estará listo 2 horas antes de la salida. Gracias, hasta pronto !</string>
     <string name="currentLangButton">Siguiente</string>
     <string name="langSelect">Otros idiomas : </string>
+    <string name="goToCatalogActivity">Volver al catálogo</string>
 </resources>
