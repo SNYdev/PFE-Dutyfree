@@ -33,6 +33,10 @@
         <activity android:name=".PaymentActivity" />
         <activity android:name=".PaymentCheck" />
         <activity android:name=".CartActivity" />
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 
 </manifest>

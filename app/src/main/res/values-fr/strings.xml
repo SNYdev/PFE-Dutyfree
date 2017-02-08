@@ -15,4 +15,17 @@
     <string name="currentLangButton">Suivant</string>
     <string name="langSelect">Autres langues : </string>
     <string name="goToCatalogActivity">retourner au catalogue</string>
+
+    <string name="nav_text_all">Tout</string>
+    <string name="nav_text_tobacco">Tabac</string>
+    <string name="nav_text_alcohol">Alcool</string>
+    <string name="nav_text_sweets">Friandises</string>
+    <string name="nav_text_jewerly">Bijoux</string>
+    <string name="nav_text_pack">Nos packs</string>
+    <string name="nav_text_kids">Pour les enfants</string>
+
+    <string name="title_activity_navigation">DutyStore</string>
+    <string name="navigation_drawer_open">Ouvrir navigation drawer</string>
+    <string name="navigation_drawer_close">Fermer navigation drawer</string>
+    <string name="action_settings">Parametres</string>
 </resources>

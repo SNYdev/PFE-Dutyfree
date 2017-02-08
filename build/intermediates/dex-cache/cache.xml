@@ -3,183 +3,237 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.2\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.0.2_320cd9cdc577044821b8d9144db9a63f0bcd618f\classes.dex" />
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_01a5ffa56faef86777281b539486877468905883/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.0.2\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.0.2_a7d68311dc23c7d5f9e20120304bd1ba0241d5da\classes.dex" />
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_65897dc98221d702d1df40270d88456579a7e839/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.0.2\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.0.2_d0f263f6e0c1641fb493e80449fea5c7fd852d33\classes.dex" />
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_3848a07391d6a63770c10ad68376e86ae11af2a6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.9\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-zxing-1.9_e5baeb0dd1209c28c6d59c4b0f7f6f9a5006a07f\classes.dex" />
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_60ff114a6b567cca8dbfde48ecc7fb5cca112563/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.0.2_9eb9e59373058961882f80303c251844e90a96c9\classes.dex" />
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_a286035f52051056a30f9fb5b9129065801d5a39/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-beta1\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="97f82fd0c185bd2881a93646954f2429be4baa86">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0-beta1_5c1749a772c1696d56177d3ddc2c852bc227936e\classes.dex" />
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_7df22109fb6584cec8e14a454e75f90611ac112b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-beta1\jars\libs\internal_impl-24.0.0-beta1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="23d564c059873f398dc5d967f56791a66472ce76">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0-beta1_ad87b5392e624bb491e89150ee2b98c94659a3ee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2133ee77ffc4d7d1b8a993356edff4c23b1dc750">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c6185c8c95921369a18d85693616808cb4ca4797\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.0.2_84aab0f355cb43e76c43d3557a51ae129804c07b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="06e2acbcb2ec5e6a3ddeb5ec3bf1fadfe9e335d3">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b7b0b2ec22bf9b71167d32bbc4d9f1d3b51db36\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.0.2_b63b9e2d1d5c2bdff83ed16c8e7bea73f84503e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.0.2_d99385172d753d1e19e00b9fe208c174704cef52\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-beta1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f81eecb8d5e9e548f75f277830a94a9b37fbb987">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0-beta1_9586b22ac8f5e794f62188a42b1587e2e8310a80\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.9\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-core-1.9_d73ee81175d34585041ccc45a3060c37a638efa2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.0.2_1bf30e32254d8c49efa6b465b380956c78412b4b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-beta1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8d3137a71200c47974c0454ae8ad272a09c533eb">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0-beta1_fefde678b7a3e71fdc92f772644418779f28395d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-beta1\support-annotations-24.0.0-beta1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="04705c19cdec60364bc04e2e928c274da1ba301b">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0-beta1_50d41ed15814673faf0644af23091d146d498655\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jar="/Users/yanis-sahnoune/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_47135256d063434ed41aebd03d471e7223796761\classes.dex" />
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.1_097efaae083f5f31a23b3fb42d8306ae0abf3834/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-beta1\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3c0208faf42864e6695345e64d1b955070263819">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0-beta1_fc45b94c34147ef1038043e2ad1ac974386803bc\classes.dex" />
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_3d7a3df411041d87e521c1d1570749874421637e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.2\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.0.2_2fa18fa514419fa22d897a76f3e4dde91b4c540a\classes.dex" />
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_e1fa64d021195f03e49e89c217d4ddfc0261da0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_3ebafa62ea6941b0028fa36a960c9a2ed93684a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_f187df1a0770c7024b2634815dfc893cd98fa562/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_d215b8bcfada533f8ce694f8aa20bbf39cbc3e4b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_6231e95490a312f60ce39f04ad5945f868f5c503/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_8626e8ac265ad6c32a3335cec96e51fbd7d5a41a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-core-1.9_a558dc2b57cc7594fc926ef202e0286ab8adb5f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_38d885f06d6a740c6a7793a69a88512baef09eb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_e1e935f9f55f73550ec631c7aacc9ae3d17bfa2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_fc23ecc7f5b592e2b45d4ebb17ff6a7a8b60d3fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_a3a30983599b0a6fc28ac712c6aa15a3181f0935/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_6816ca0409c8f089b0ec7c0df946b441fc46fe5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_d404175f61c2db3b39e5140cee3943b19c84ee33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="74634f697911b57df29f9f20545f18d82895d918">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_02b5b0cf965bacd8f91009c46e503113cddc8377/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-zxing-1.9_2190acd095d93859dbab03d4da37e5228bad484c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_841adadf2e2cc49fff574b255555fc5e31838cf9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f937d7d9f3424c200c19fc4637019a3493332aae">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_15a657c2435c0048d1fd7b0886cd9f307818489c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_323aa672f096b19d164c55cc3f311f24f7e27f6a/classes.dex" />
     </item>
 
 </items>

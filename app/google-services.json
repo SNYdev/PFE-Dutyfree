@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "766764263293",
+    "firebase_url": "https://dutystore-c360e.firebaseio.com",
+    "project_id": "dutystore-c360e",
+    "storage_bucket": "dutystore-c360e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766764263293:android:f728ca1f5ab231e8",
+        "android_client_info": {
+          "package_name": "supinternet.pfe_dutyfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766764263293-ev4s9j86k6rodi3o9rqc9u7ndido63g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANdyluZ2VwswNiyVR_iv9sSMT2EhFG_T4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
