@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button currentLangButton = (Button) findViewById(R.id.currentLangButton);
+        //Button currentLangButton = (Button) findViewById(R.id.currentLangButton);
         TextView otherLang = (TextView) findViewById(R.id.otherLangText);
 
         otherLang.setText(R.string.langSelect);
-        currentLangButton.setText(R.string.currentLangButton);
+        //currentLangButton.setText(R.string.currentLangButton);
 
         currentLang = Locale.getDefault().getDisplayLanguage();
         TextView currentLangString = (TextView) findViewById(R.id.currentLang);
