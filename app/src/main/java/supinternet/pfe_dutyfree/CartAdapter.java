@@ -40,15 +40,17 @@ public class CartAdapter extends ArrayAdapter<Cart> {
         }
 
         //getItem(position) va récupérer l'item [position] de la List<Tweet> tweets
-        Cart cart = getItem(position);
-        System.out.println(cart);
+        Cart cartItem = getItem(position);
+        System.out.println(cartItem);
         //il ne reste plus qu'à remplir notre vue
-        viewHolder.productName.setText(cart.getProductName());
-        Float price = Float.parseFloat(cart.getOriginalPrice()) * (float)cart.getQuantity();
+        viewHolder.productName.setText(cartItem.getProductName());
+        Float price = Float.parseFloat(cartItem.getOriginalPrice()) * (float)cartItem.getQuantity();
         String priceString = String.valueOf(price);
-        cart.setPrice(priceString);
-        viewHolder.price.setText(cart.getPrice()+"€");
-        viewHolder.quantity.setValue(cart.getQuantity());
+        cartItem.setPrice(priceString);
+        viewHolder.price.setText(cartItem.getPrice()+"€");
+        viewHolder.quantity.setValue(cartItem.getQuantity());
+
+        LayoutInflater inflator=LayoutInflater.from(getContext());
         final TextView oPrice = viewHolder.price;
         /*viewHolder.quantity.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override
@@ -66,12 +68,13 @@ public class CartAdapter extends ArrayAdapter<Cart> {
             @Override
             public void onScrollStateChange(NumberPicker numberPicker, int scrollState) {
                 if (scrollState == NumberPicker.OnScrollListener.SCROLL_STATE_IDLE) {
-                    Cart cart = getItem(position);
-                    cart.setQuantity(numberPicker.getValue());
-                    Float newPrice = Float.parseFloat(cart.getOriginalPrice()) * (float)numberPicker.getValue();
+                    Cart cartItem = getItem(position);
+                    //total -= Float.parseFloat(cart.getPrice());
+                    cartItem.setQuantity(numberPicker.getValue());
+                    Float newPrice = Float.parseFloat(cartItem.getOriginalPrice()) * (float)numberPicker.getValue();
                     String newPriceString = String.valueOf(newPrice);
-                    cart.setPrice(newPriceString);
-                    oPrice.setText(cart.getPrice()+"€");
+                    cartItem.setPrice(newPriceString);
+                    oPrice.setText(cartItem.getPrice()+"€");
                 }
             }
         });
