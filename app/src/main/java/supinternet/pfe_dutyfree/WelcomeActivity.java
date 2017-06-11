@@ -13,12 +13,18 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
+        Intent intent = getIntent();
+        String ticketScan = intent.getStringExtra("ticketScan");
         TextView ticketCheckStatus = (TextView) findViewById(R.id.TicketCheckStatus);
-        ticketCheckStatus.setText(R.string.ticketCheckText);
+        TextView ticketCheck = (TextView) findViewById(R.id.TicketCheck);
+        String welcomeTxt = getResources().getString(R.string.ticketCheckText);
+        String welcomeMsg = String.format(welcomeTxt, ticketScan, ticketScan);
+        ticketCheckStatus.setText(welcomeMsg);
+        ticketCheck.setText(ticketScan);
     }
 
     public void goToCatalogActivity(View v){
-        Intent goToCatalogActivity = new Intent(this, CatalogActivity.class);
+        Intent goToCatalogActivity = new Intent(this, NavigationActivity.class);
         startActivity(goToCatalogActivity);
     }
 }

@@ -4,6 +4,7 @@
     android:id="@+id/activity_payment_activity"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:backgroundTint="@color/greyPrimary"
     android:scrollbars="vertical">
     <LinearLayout
         android:layout_width="fill_parent"
@@ -37,6 +38,9 @@
             android:layout_height="wrap_content"
             android:text="@string/sendCreditCardNumber"
             android:onClick="goToPaymentCheckActivity"
+            android:textColor="@color/white"
+            android:background="@color/yellowPrimary"
+            android:layout_marginBottom="15dp"
             android:layout_width="fill_parent">
         </Button>
 
@@ -45,6 +49,8 @@
             android:layout_height="wrap_content"
             android:text="New Button"
             android:onClick="goToPaymentCheckActivity"
+            android:textColor="@color/white"
+            android:background="@color/yellowPrimary"
             android:id="@+id/cashPayment" />
 
     </LinearLayout>

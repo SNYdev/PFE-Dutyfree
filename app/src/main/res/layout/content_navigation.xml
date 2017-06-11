@@ -11,6 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="supinternet.pfe_dutyfree.NavigationActivity"
+    android:backgroundTint="@color/primaryBlue"
     tools:showIn="@layout/app_bar_navigation">
 
     <include layout="@layout/activity_catalog"/>

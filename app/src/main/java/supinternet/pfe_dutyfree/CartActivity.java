@@ -37,6 +37,13 @@ public class CartActivity extends ActionBarActivity {
         final List<Cart> cart = generateCartProducts();
         CartAdapter adapter = new CartAdapter(this, cart);
         mListView.setAdapter(adapter);
+        final TextView deliveryFeeTxt = (TextView) findViewById(R.id.deliveryFeeTxt);
+        if (cart.size() > 0) {
+            deliveryFeeTxt.setText("2.0€");
+            total = total + (float)2;
+        } else  {
+            deliveryFeeTxt.setText("0.0€");
+        }
         updateTotal(priceTotal, cart, total);
 
         mListView.setOnTouchListener(new View.OnTouchListener() {

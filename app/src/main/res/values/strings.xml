@@ -12,12 +12,13 @@
     <string name="sendCreditCardNumber">Finalize my order</string>
     <string name="cashPayment">cash payment</string>
     <string name="cashPaymentCheckText">Your order will be ready before your shipment. Thank you for choosing AirStore!</string>
-    <string name="ticketCheckText">Your order will be ready 2h before your departure. Thanks see you soon !</string>
+    <string name="ticketCheckText">Welcome %1$s, leaving for %2$s you benefit from the tax-free. Good shopping.</string>
     <string name="currentLangButton">Following</string>
     <string name="langSelect">Other language : </string>
     <string name="goToCatalogActivity">To the catalog</string>
     <string name="returnToMainActivity">Back to the homepage</string>
     <string name="total">Total</string>
+    <string name="deliveryFee">Delivery fee</string>
 
     <string name="nav_text_all">All</string>
     <string name="nav_text_tobacco">Tobacco</string>

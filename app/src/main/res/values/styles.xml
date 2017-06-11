@@ -1,4 +1,8 @@
 <resources>
+    <color name="primaryBlue">#1D85E9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellowPrimary">#F4C430</color>
+    <color name="greyPrimary">#EDF6FC</color>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -11,8 +15,9 @@
     <style name="FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
         <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@null</item>
+        <item name="android:windowBackground">@color/primaryBlue</item>
         <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="android:background">@color/primaryBlue</item>
         <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
     </style>
 

@@ -64,7 +64,7 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
     @Override
     public void handleResult(Result rawResult) {
         Intent intent = new Intent(this, WelcomeActivity.class);
-        intent.putExtra("CatalogActivity.code", rawResult.getText());
+        intent.putExtra("ticketScan", rawResult.getText());
         startActivity(intent);
 
         // If you would like to resume scanning, call this method below:
