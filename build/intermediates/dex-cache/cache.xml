@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="bbd1fa74af2e9f449ddf9a54975d3f76ad7362df">
+        sha1="6591e762e4efbc4d245d14d8e9d9b4cc5e30ed36">
         <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b7b0b2ec22bf9b71167d32bbc4d9f1d3b51db36\classes.dex" />
     </item>
     <item
@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="272c1144a510aaa1d03b94d61e30a4a38397cb46">
+        sha1="0ff222d755f1bfb5a75cbbbf1228bb061dad37d7">
         <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c6185c8c95921369a18d85693616808cb4ca4797\classes.dex" />
     </item>
     <item

@@ -14,7 +14,7 @@ public class TicketFormActivity extends AppCompatActivity {
     }
 
     public void sendTicketNumber(View v) {
-        Intent refresh =  new Intent(this, PaymentActivity.class);
+        Intent refresh =  new Intent(this, NavigationActivity.class);
         startActivity(refresh);
     }
 

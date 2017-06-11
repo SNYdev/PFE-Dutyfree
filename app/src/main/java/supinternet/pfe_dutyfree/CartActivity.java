@@ -70,8 +70,8 @@ public class CartActivity extends ActionBarActivity {
         System.out.println("Back pressed : "+ data);
     }
 
-    public void goToTicketForm(View v){
-        Intent refresh =  new Intent(this, TicketFormActivity.class);
+    public void goToPaymentForm(View v){
+        Intent refresh =  new Intent(this, PaymentActivity.class);
         startActivity(refresh);
     }
 }

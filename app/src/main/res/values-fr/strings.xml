@@ -11,10 +11,12 @@
     <string name="creditCardCryptogram">Cryptogramme (3 dernier chiffre au dos de votre carte bancaire)</string>
     <string name="sendCreditCardNumber">Finnaliser ma commande</string>
     <string name="cashPayment">Paiement en espèces</string>
-    <string name="cashPaymentCheckText">Votre commande sera prête 2h avant votre départ. Merci, à bientôt !</string>
+    <string name="cashPaymentCheckText">Votre commande sera prête avant votre embarque. Merci d'avoir choisi AirStore !</string>
+    <string name="ticketCheckText">Your order will be ready 2h before your departure. Thanks see you soon !</string>
     <string name="currentLangButton">Suivant</string>
     <string name="langSelect">Autres langues : </string>
-    <string name="goToCatalogActivity">retourner au catalogue</string>
+    <string name="goToCatalogActivity">Accéder au catalogue</string>
+    <string name="returnToMainActivity">Retour à la page d\'accueil</string>
     <string name="total">Total</string>
 
     <string name="nav_text_all">Tout</string>

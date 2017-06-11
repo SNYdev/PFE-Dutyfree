@@ -21,9 +21,9 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:id="@+id/goToCatalogActivity"
-        android:onClick="goToCatalogActivity"
-        android:text="@string/goToCatalogActivity"
+        android:id="@+id/returnToMainActivity"
+        android:onClick="returnToMainActivity"
+        android:text="@string/returnToMainActivity"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"

@@ -17,8 +17,8 @@ public class PaymentCheck extends AppCompatActivity {
         paymentCheckStatus.setText(R.string.cashPaymentCheckText);
     }
 
-    public void goToCatalogActivity(View v){
-        Intent goToCatalogActivity = new Intent(this, CatalogActivity.class);
-        startActivity(goToCatalogActivity);
+    public void returnToMainActivity(View v){
+        Intent returnToMainActivity = new Intent(this, MainActivity.class);
+        startActivity(returnToMainActivity);
     }
 }
