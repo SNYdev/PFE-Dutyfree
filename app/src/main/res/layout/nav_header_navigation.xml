@@ -18,6 +18,6 @@
         android:layout_width="550px"
         android:layout_height="250px"
         android:paddingTop="16dp"
-        android:src="@drawable/logotextdutystore" />
+        android:src="@drawable/logo_white" />
 
 </LinearLayout>

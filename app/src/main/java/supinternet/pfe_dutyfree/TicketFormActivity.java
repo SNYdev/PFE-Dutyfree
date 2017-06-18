@@ -13,7 +13,7 @@ public class TicketFormActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ticket_form);
         ImageButton dutyStoreLogo = (ImageButton) findViewById(R.id.goToScanImg);
-        dutyStoreLogo.setImageResource(R.drawable.logotextdutystore);
+        dutyStoreLogo.setImageResource(R.drawable.logo_white);
     }
 
     public void sendTicketNumber(View v) {

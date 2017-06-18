@@ -3,237 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/.android/build-cache/4f1979027d0e460bafbcacb80c570fc782b51756/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_8e5fd494a202e4de72e964c88c3cd56d1753771f\classes.dex" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_77095bb2ebc8cd13775ba58627336508c307d2e8/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_26974bbe434ebf5ec510e6adb8cabc7a9c980e03\classes.dex" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_15a657c2435c0048d1fd7b0886cd9f307818489c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_c4b0bef66cc1fc11151dbf271e999a4462fac4ee\classes.dex" />
+        sha1="e4754cbd2f31370a89529219d36a9dc306c34d74">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_02b5b0cf965bacd8f91009c46e503113cddc8377/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jar="/Users/yanis-sahnoune/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_87c1579f15c2502e8ffa932628cdbd2fe41efea7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.9\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-core-1.9_d73ee81175d34585041ccc45a3060c37a638efa2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_433104779e47ef8c9bc2eeef6cf333b125f19a73\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.9\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-zxing-1.9_e5baeb0dd1209c28c6d59c4b0f7f6f9a5006a07f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_a315db520b746a859a242d41daef738ca538bbf6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_b87a038532e9c258ef8414c826f88298de14abb8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_9b59cf1ae7210d7c4f7a0862e1257d6d21ee815e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_f3684982c517e8c0a751d833608ea0187882e300\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_491156fde324ebe79f9bad9f6cbfbd46a6af74b3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_72e1f517b0b4e3840138feda30e652854e73a71e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_9896f58159c3db5f6f885a616494a0b28aa145b8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6591e762e4efbc4d245d14d8e9d9b4cc5e30ed36">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b7b0b2ec22bf9b71167d32bbc4d9f1d3b51db36\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_94d30ccc394d1f73d3eefc3df3a47c0722c1b092\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_9f3a61db16363932730f550a7966f8d5bacd500b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_47135256d063434ed41aebd03d471e7223796761\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_47be2d431a45d96e63efdd668cc9829d06655a2b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_1e022274e25ae2d625543a7a70a67b0701e7dd09\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ff222d755f1bfb5a75cbbbf1228bb061dad37d7">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c6185c8c95921369a18d85693616808cb4ca4797\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_5bc3c2efd1fad3544fab310c94efbd03af1596db\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_0816ef32181db90830eb29d95f5d59bedbbe8903\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_8eb43b0d82d3263afd6b8b9c981567acecef3a9a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_7a9c0af3fdf3eb88b9e930a1a6437ed0f59c21ad\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_26b4a1c054469f7efd7e8d632cf7cbd7cf33eccb\classes.dex" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_26ab0d25283e4ab2f3bbd0ea04f76e755d5562f1/classes.dex" />
     </item>
 
 </items>

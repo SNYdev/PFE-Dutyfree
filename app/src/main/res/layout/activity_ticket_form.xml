@@ -19,28 +19,33 @@ android:scrollbars="vertical">
 
     <ImageButton
         android:id="@+id/goToScanImg"
-        android:text="@string/goToScan"
-        android:onClick="goToScan"
-        android:textColor="@color/white"
-        android:background="@color/primaryBlue"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
+        android:layout_margin="80dp"
+        android:background="@color/primaryBlue"
+        android:onClick="goToScan"
         android:scaleType="fitCenter"
-        style="?android:attr/borderlessButtonStyle">
-    </ImageButton>
+        android:text="@string/goToScan"
+        android:textColor="@color/white"></ImageButton>
 
     <Button
         android:id="@+id/goToScan"
-        android:layout_height="wrap_content"
-        android:text="@string/goToScan"
-        android:onClick="goToScan"
-        android:textColor="@color/white"
-        android:background="@color/primaryBlue"
+        style="?android:attr/borderlessButtonStyle"
         android:layout_width="fill_parent"
-        android:layout_marginBottom="50dp"
-        style="?android:attr/borderlessButtonStyle">
-    </Button>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:background="@color/primaryBlue"
+        android:onClick="goToScan"
+        android:text="@string/goToScan"
+        android:textColor="@color/white"></Button>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/qrcode_white" />
 
     <EditText
         android:id="@+id/ticketNumber"

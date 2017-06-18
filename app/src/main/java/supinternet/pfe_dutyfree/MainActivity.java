@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textCurrentLang = (TextView) findViewById(R.id.textCurrentLang);
         textCurrentLang.setText(R.string.currentLang);
         ImageView dutyStoreLogo = (ImageView) findViewById(R.id.logoDraw);
-        dutyStoreLogo.setImageResource(R.drawable.logotextdutystore);
+        dutyStoreLogo.setImageResource(R.drawable.logo_white);
 
     }
 
@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(refresh);
     }
 
+
+    /*TODO : Reactivate TicketFormActivity after test*/
     public void goToFrActiv(View v){
         changeLanguage("fr");
         Intent refresh =  new Intent(this, TicketFormActivity.class);
