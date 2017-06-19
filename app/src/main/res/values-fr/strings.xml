@@ -13,6 +13,7 @@
     <string name="cashPayment">Paiement en espèces</string>
     <string name="cashPaymentCheckText">Votre commande sera prête avant votre embarque. Merci d\'avoir choisi AirStore !</string>
     <string name="ticketCheckText">Bienvenue %1$s, en partant pour %2$s vous bénéficiez de la détaxe. Bon shopping.</string>
+    <string name="welcomeMsg">Bienvenue %1$s, votre destinaton ne bénéfice pas de la détaxe. Bon shopping.</string>
     <string name="currentLangButton">Suivant</string>
     <string name="langSelect">Autres langues : </string>
     <string name="goToCatalogActivity">Accéder au catalogue</string>

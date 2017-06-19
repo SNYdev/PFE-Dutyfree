@@ -3,39 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/yanis-sahnoune/.android/build-cache/4f1979027d0e460bafbcacb80c570fc782b51756/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_77095bb2ebc8cd13775ba58627336508c307d2e8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_15a657c2435c0048d1fd7b0886cd9f307818489c/classes.dex" />
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c6185c8c95921369a18d85693616808cb4ca4797\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e4754cbd2f31370a89529219d36a9dc306c34d74">
-        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_02b5b0cf965bacd8f91009c46e503113cddc8377/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yanis-sahnoune/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_26ab0d25283e4ab2f3bbd0ea04f76e755d5562f1/classes.dex" />
+        sha1="ff86cb01d114ea4ae24064bfa44b065d0817f00f">
+        <dex dex="C:\Users\user\Dropbox\PFE\PFE-Dutyfree\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8b7b0b2ec22bf9b71167d32bbc4d9f1d3b51db36\classes.dex" />
     </item>
 
 </items>

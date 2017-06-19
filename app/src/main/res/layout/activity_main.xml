@@ -77,7 +77,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="French"
+                android:text="Français"
                 android:onClick="goToFrActiv"
                 android:id="@+id/btnFr"
                 android:textColor="@color/white"
@@ -88,7 +88,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Spanish"
+                android:text="Español"
                 android:onClick="goToEsActiv"
                 android:id="@+id/btnEs"
                 android:textColor="@color/white"

@@ -13,6 +13,7 @@
     <string name="cashPayment">cash payment</string>
     <string name="cashPaymentCheckText">Your order will be ready before your shipment. Thank you for choosing AirStore!</string>
     <string name="ticketCheckText">Welcome %1$s, leaving for %2$s you benefit from the tax-free. Good shopping.</string>
+    <string name="welcomeMsg">Welcome %1$s, your destination does not benefit from the tax refund. Good shopping.</string>
     <string name="currentLangButton">Following</string>
     <string name="langSelect">Other language : </string>
     <string name="goToCatalogActivity">To the catalog</string>
