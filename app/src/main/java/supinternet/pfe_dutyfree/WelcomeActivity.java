@@ -154,17 +154,22 @@ public class WelcomeActivity extends AppCompatActivity {
             for (Map.Entry<String, String> entry : airportMap.entrySet()) {
                 if (entry.getValue().contains(destination)) {
                     france = true;
+                    Intent franceIntent = new Intent(this, FranceWelcomeActivity.class);
                     String welcomeTxt = getResources().getString(R.string.welcomeMsg);
                     welcomeMsg = String.format(welcomeTxt, name);
+                    franceIntent.putExtra("welcomeMsg", welcomeMsg);
+                    startActivity(franceIntent);
                 }
             }
             if (!france) {
                 String welcomeTxt = getResources().getString(R.string.ticketCheckText);
-                welcomeMsg = String.format(welcomeTxt, name, destination);
+                welcomeMsg = String.format(welcomeTxt, name);
             }
         } else {
-            String welcomeTxt = getResources().getString(R.string.welcomeMsg);
-            welcomeMsg = String.format(welcomeTxt, name);
+            Intent unknownAirportIntent = new Intent(this, UnknownAirportActivity.class);
+            String welcomeTxt = getResources().getString(R.string.notOkMsg);
+            unknownAirportIntent.putExtra("welcomeMsg", welcomeTxt);
+            startActivity(unknownAirportIntent);
         }
         TextView ticketCheckStatus = (TextView) findViewById(R.id.TicketCheckStatus);
         TextView ticketCheck = (TextView) findViewById(R.id.TicketCheck);

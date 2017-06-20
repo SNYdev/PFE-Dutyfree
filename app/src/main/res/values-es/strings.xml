@@ -12,8 +12,10 @@
     <string name="sendCreditCardNumber">Completar mi pedido</string>
     <string name="cashPayment">Terminar mi pedido</string>
     <string name="cashPaymentCheckText">Su pedido está listo antes de embarcarse. Gracias por elegir AirStore!</string>
-    <string name="ticketCheckText">Bienvenue %1$s, de %2$s a obtener un reembolso de impuestos. Felices compras.</string>
+    <string name="ticketCheckText">Bienvenue %1$s, su destino goza de devolución de impuestos. Felices compras.</string>
     <string name="welcomeMsg">Bienvenido %1$s su destinaton no se beneficia de la reducción de impuestos. Felices compras.</string>
+    <string name="notOkMsg">Desafortunadamente AirStore aún no está instalado en el aeropuerto.</string>
+    <string name="emptyTxt">Por favor complete el campo antes de validar.</string>
     <string name="currentLangButton">Siguiente</string>
     <string name="langSelect">Otros idiomas : </string>
     <string name="goToCatalogActivity">Acceder al catálogo</string>

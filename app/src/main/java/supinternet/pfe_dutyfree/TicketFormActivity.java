@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class TicketFormActivity extends AppCompatActivity {
 
@@ -17,8 +19,14 @@ public class TicketFormActivity extends AppCompatActivity {
     }
 
     public void sendTicketNumber(View v) {
-        Intent refresh =  new Intent(this, NavigationActivity.class);
-        startActivity(refresh);
+        EditText ticketNumber = (EditText) findViewById(R.id.ticketNumber);
+        if (ticketNumber.getText().toString().trim().length() == 0) {
+            String emptyTxt = getResources().getString(R.string.emptyTxt);
+            Toast.makeText(this, emptyTxt, Toast.LENGTH_LONG).show();
+        } else {
+            Intent refresh = new Intent(this, NavigationActivity.class);
+            startActivity(refresh);
+        }
     }
 
     public void goToScan(View v) {
