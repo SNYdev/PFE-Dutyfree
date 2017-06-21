@@ -53,82 +53,78 @@ public class NavigationActivity extends AppCompatActivity
 
     private List<Product> generateProducts(){
         List<Product> products = new ArrayList<Product>();
-        products.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42"));
-        products.add(new Product(Color.BLUE, "Bottega 750ml", "Bottega Stardust is a unique Italian sparkling wine made from grapes from the romantic Prosecco hills.", "129"));
-        products.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34"));
-        products.add(new Product(Color.RED, "Toblerone Pack", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23"));
-        products.add(new Product(Color.GRAY, "Warm Regards Travel Gift ", "Whether you’re embarking on a journey or returning from one, what better way to relax than with a unique travel gift. ", "18"));
-        products.add(new Product(Color.BLACK, "Bolzano Black Watch", "Bolzano’s sleek and stylish black ceramic watch is the perfect addition to any collection.", "125"));
-        products.add(new Product(Color.BLUE, "Michael D Leather Watch", "Enjoy the simplicity and luxury of Michael D’s innovative designs. Combining elements of distinction as its beautiful matte leather strap with a flat mineral glass, stainless steel back case, 14K Gold ion-plated sphere you could just indulge in perfection. Swiss movement and Water resistant up to 5 ATM.", "99"));
-        products.add(new Product(Color.GREEN, "Alien Initiatic Thierry Mugler", "Illuminate yourself with the luminous and vibrant notes of Alien Eau de Parfum, or sparkle with the radiant and dazzling Eau de Toilette miniature.30ml NR + 5ml Miniature.", "62"));
-        products.add(new Product(Color.RED, "Marlboro Box Carton", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42"));
-        products.add(new Product(Color.BLUE, "Bottega Prosecco 750ml", "Bottega Stardust is a unique Italian sparkling wine made from grapes from the romantic Prosecco hills.", "129"));
-        products.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34"));
-        products.add(new Product(Color.RED, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23"));
-        products.add(new Product(Color.GRAY, "Warm Regards Travel London", "Whether you’re embarking on a journey or returning from one, what better way to relax than with a unique travel gift. ", "18"));
-        products.add(new Product(Color.BLACK, "Bolzano Black Ceramic ", "Bolzano’s sleek and stylish black ceramic watch is the perfect addition to any collection.", "125"));
-        products.add(new Product(Color.BLUE, "Michael D Brown Leather ", "Enjoy the simplicity and luxury of Michael D’s innovative designs. Combining elements of distinction as its beautiful matte leather strap with a flat mineral glass, stainless steel back case, 14K Gold ion-plated sphere you could just indulge in perfection. Swiss movement and Water resistant up to 5 ATM.", "99"));
-        products.add(new Product(Color.GREEN, "Alien Initiatic Thierry Mugler", "Illuminate yourself with the luminous and vibrant notes of Alien Eau de Parfum, or sparkle with the radiant and dazzling Eau de Toilette miniature.30ml NR + 5ml Miniature.", "62"));
+        products.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42.0"));
+        products.add(new Product(Color.BLUE, "Bottega 750ml", "Bottega Stardust is a unique Italian sparkling wine made from grapes from the romantic Prosecco hills.", "129.0"));
+        products.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34.0"));
+        products.add(new Product(Color.RED, "Toblerone Pack", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23.0"));
+        products.add(new Product(Color.GRAY, "Warm Regards Travel Gift ", "Whether you’re embarking on a journey or returning from one, what better way to relax than with a unique travel gift. ", "18.0"));
+        products.add(new Product(Color.BLACK, "Bolzano Black Watch", "Bolzano’s sleek and stylish black ceramic watch is the perfect addition to any collection.", "125.0"));
+        products.add(new Product(Color.BLUE, "Michael D Leather Watch", "Enjoy the simplicity and luxury of Michael D’s innovative designs. Combining elements of distinction as its beautiful matte leather strap with a flat mineral glass, stainless steel back case, 14K Gold ion-plated sphere you could just indulge in perfection. Swiss movement and Water resistant up to 5 ATM.", "99.0"));
+        products.add(new Product(Color.GREEN, "Alien Initiatic Thierry Mugler", "Illuminate yourself with the luminous and vibrant notes of Alien Eau de Parfum, or sparkle with the radiant and dazzling Eau de Toilette miniature.30ml NR + 5ml Miniature.", "62.0"));
+        products.add(new Product(Color.RED, "Marlboro Box Carton", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42.0"));
+        products.add(new Product(Color.BLUE, "Bottega Prosecco 750ml", "Bottega Stardust is a unique Italian sparkling wine made from grapes from the romantic Prosecco hills.", "129.0"));
+        products.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34.0"));
+        products.add(new Product(Color.RED, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23.0"));
+        products.add(new Product(Color.GRAY, "Warm Regards Travel London", "Whether you’re embarking on a journey or returning from one, what better way to relax than with a unique travel gift. ", "18.0"));
+        products.add(new Product(Color.BLACK, "Bolzano Black Ceramic ", "Bolzano’s sleek and stylish black ceramic watch is the perfect addition to any collection.", "125.0"));
+        products.add(new Product(Color.BLUE, "Michael D Brown Leather ", "Enjoy the simplicity and luxury of Michael D’s innovative designs. Combining elements of distinction as its beautiful matte leather strap with a flat mineral glass, stainless steel back case, 14K Gold ion-plated sphere you could just indulge in perfection. Swiss movement and Water resistant up to 5 ATM.", "99.0"));
+        products.add(new Product(Color.GREEN, "Alien Initiatic Thierry Mugler", "Illuminate yourself with the luminous and vibrant notes of Alien Eau de Parfum, or sparkle with the radiant and dazzling Eau de Toilette miniature.30ml NR + 5ml Miniature.", "62.0"));
         return products;
     }
 
     private List<Product> generateProductTobacco(){
         List<Product> TobaccoProducts = new ArrayList<Product>();
-        TobaccoProducts.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42"));
-        TobaccoProducts.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42"));
-        TobaccoProducts.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42"));
-        TobaccoProducts.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42"));
-        TobaccoProducts.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42"));
+        TobaccoProducts.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42.0"));
+        TobaccoProducts.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42.0"));
+        TobaccoProducts.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42.0"));
+        TobaccoProducts.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42.0"));
+        TobaccoProducts.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42.0"));
         return TobaccoProducts;
     }
 
     private List<Product> generateProductAlcohol(){
         List<Product> AlcoholProducts = new ArrayList<Product>();
-        AlcoholProducts.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34"));
-        AlcoholProducts.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34"));
-        AlcoholProducts.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34"));
-        AlcoholProducts.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34"));
-        AlcoholProducts.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34"));
+        AlcoholProducts.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34.0"));
         return AlcoholProducts;
     }
 
     private List<Product> generateProductSweets(){
         List<Product> SweetsProducts = new ArrayList<Product>();
-        SweetsProducts.add(new Product(Color.YELLOW, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23"));
-        SweetsProducts.add(new Product(Color.YELLOW, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23"));
-        SweetsProducts.add(new Product(Color.YELLOW, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23"));
-        SweetsProducts.add(new Product(Color.YELLOW, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23"));
-        SweetsProducts.add(new Product(Color.YELLOW, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23"));
+        SweetsProducts.add(new Product(Color.YELLOW, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23.0"));
+        SweetsProducts.add(new Product(Color.YELLOW, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23.0"));
+        SweetsProducts.add(new Product(Color.YELLOW, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23.0"));
+        SweetsProducts.add(new Product(Color.YELLOW, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23.0"));
+        SweetsProducts.add(new Product(Color.YELLOW, "Toblerone Variety ", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23.0"));
         return SweetsProducts;
 
     }
 
     private List<Product> generateProductJewelry(){
         List<Product> JewelryProducts = new ArrayList<Product>();
-        JewelryProducts.add(new Product(Color.CYAN, "Bohemian Harmony Bracelet", "It’s all about the nature of simplicity and charm. Black, light yellow and gunmetal stones dance harmoniously in a brown leather cord to give you the daily look you are going for. 33.5’’ long", "22"));
-        JewelryProducts.add(new Product(Color.CYAN, "Bohemian Harmony Bracelet", "It’s all about the nature of simplicity and charm. Black, light yellow and gunmetal stones dance harmoniously in a brown leather cord to give you the daily look you are going for. 33.5’’ long", "22"));
-        JewelryProducts.add(new Product(Color.CYAN, "Bohemian Harmony Bracelet", "It’s all about the nature of simplicity and charm. Black, light yellow and gunmetal stones dance harmoniously in a brown leather cord to give you the daily look you are going for. 33.5’’ long", "22"));
-        JewelryProducts.add(new Product(Color.CYAN, "Bohemian Harmony Bracelet", "It’s all about the nature of simplicity and charm. Black, light yellow and gunmetal stones dance harmoniously in a brown leather cord to give you the daily look you are going for. 33.5’’ long", "22"));
-        JewelryProducts.add(new Product(Color.CYAN, "Bohemian Harmony Bracelet", "It’s all about the nature of simplicity and charm. Black, light yellow and gunmetal stones dance harmoniously in a brown leather cord to give you the daily look you are going for. 33.5’’ long", "22"));
+        JewelryProducts.add(new Product(Color.CYAN, "Bohemian Harmony Bracelet", "It’s all about the nature of simplicity and charm. Black, light yellow and gunmetal stones dance harmoniously in a brown leather cord to give you the daily look you are going for. 33.5’’ long", "22.0"));
+        JewelryProducts.add(new Product(Color.CYAN, "Bohemian Harmony Bracelet", "It’s all about the nature of simplicity and charm. Black, light yellow and gunmetal stones dance harmoniously in a brown leather cord to give you the daily look you are going for. 33.5’’ long", "22.0"));
+        JewelryProducts.add(new Product(Color.CYAN, "Bohemian Harmony Bracelet", "It’s all about the nature of simplicity and charm. Black, light yellow and gunmetal stones dance harmoniously in a brown leather cord to give you the daily look you are going for. 33.5’’ long", "22.0"));
+        JewelryProducts.add(new Product(Color.CYAN, "Bohemian Harmony Bracelet", "It’s all about the nature of simplicity and charm. Black, light yellow and gunmetal stones dance harmoniously in a brown leather cord to give you the daily look you are going for. 33.5’’ long", "22.0"));
+        JewelryProducts.add(new Product(Color.CYAN, "Bohemian Harmony Bracelet", "It’s all about the nature of simplicity and charm. Black, light yellow and gunmetal stones dance harmoniously in a brown leather cord to give you the daily look you are going for. 33.5’’ long", "22.0"));
         return JewelryProducts;
 
     }
 
     private List<Product> generateProductKids(){
         List<Product> KidsProducts = new ArrayList<Product>();
-        KidsProducts.add(new Product(Color.BLACK, "Lego® Star Wars™ Stormtrooper™ Kids’ Watch", "Stop that ship!!! Blast them!!! This fantastic new addition to the LEGO® Star Wars universe will be a delight to any wearer.", "26"));
-        KidsProducts.add(new Product(Color.BLACK, "Lego® Star Wars™ Stormtrooper™ Kids’ Watch", "Stop that ship!!! Blast them!!! This fantastic new addition to the LEGO® Star Wars universe will be a delight to any wearer.", "26"));
-        KidsProducts.add(new Product(Color.BLACK, "Lego® Star Wars™ Stormtrooper™ Kids’ Watch", "Stop that ship!!! Blast them!!! This fantastic new addition to the LEGO® Star Wars universe will be a delight to any wearer.", "26"));
-        KidsProducts.add(new Product(Color.BLACK, "Lego® Star Wars™ Stormtrooper™ Kids’ Watch", "Stop that ship!!! Blast them!!! This fantastic new addition to the LEGO® Star Wars universe will be a delight to any wearer.", "26"));
-        KidsProducts.add(new Product(Color.BLACK, "Lego® Star Wars™ Stormtrooper™ Kids’ Watch", "Stop that ship!!! Blast them!!! This fantastic new addition to the LEGO® Star Wars universe will be a delight to any wearer.", "26"));
+        KidsProducts.add(new Product(Color.BLACK, "Lego® Star Wars™ Stormtrooper™ Kids’ Watch", "Stop that ship!!! Blast them!!! This fantastic new addition to the LEGO® Star Wars universe will be a delight to any wearer.", "26.0"));
+        KidsProducts.add(new Product(Color.BLACK, "Lego® Star Wars™ Stormtrooper™ Kids’ Watch", "Stop that ship!!! Blast them!!! This fantastic new addition to the LEGO® Star Wars universe will be a delight to any wearer.", "26.0"));
+        KidsProducts.add(new Product(Color.BLACK, "Lego® Star Wars™ Stormtrooper™ Kids’ Watch", "Stop that ship!!! Blast them!!! This fantastic new addition to the LEGO® Star Wars universe will be a delight to any wearer.", "26.0"));
+        KidsProducts.add(new Product(Color.BLACK, "Lego® Star Wars™ Stormtrooper™ Kids’ Watch", "Stop that ship!!! Blast them!!! This fantastic new addition to the LEGO® Star Wars universe will be a delight to any wearer.", "26.0"));
+        KidsProducts.add(new Product(Color.BLACK, "Lego® Star Wars™ Stormtrooper™ Kids’ Watch", "Stop that ship!!! Blast them!!! This fantastic new addition to the LEGO® Star Wars universe will be a delight to any wearer.", "26.0"));
         return KidsProducts;
     }
 
     private List<Product> generateProductPromotion(){
         List<Product> PromotionProducts = new ArrayList<Product>();
-        PromotionProducts.add(new Product(Color.MAGENTA, "Pack Family", "SWEETS + kids jewerly + Wireless Mobile Phone Monopod", "60"));
-        PromotionProducts.add(new Product(Color.MAGENTA, "Pack Beauty", "Azzaro pour Homme EDT 100ml and Free 30ml + Azzaro pour Elle EDP 75ml + Skin Caviar Luxe Cream 50m", "145"));
-        PromotionProducts.add(new Product(Color.MAGENTA, "Pack Adult", "Jack Daniel's Sinatra Select 1 Liter + Marlboro Gold Pack Box Jumbo Carton ", "140"));
+        PromotionProducts.add(new Product(Color.MAGENTA, "Pack Family", "SWEETS + kids jewerly + Wireless Mobile Phone Monopod", "60.0"));
+        PromotionProducts.add(new Product(Color.MAGENTA, "Pack Beauty", "Azzaro pour Homme EDT 100ml and Free 30ml + Azzaro pour Elle EDP 75ml + Skin Caviar Luxe Cream 50m", "145.0"));
+        PromotionProducts.add(new Product(Color.MAGENTA, "Pack Adult", "Jack Daniel's Sinatra Select 1 Liter + Marlboro Gold Pack Box Jumbo Carton ", "140.0"));
         return PromotionProducts;
     }
 

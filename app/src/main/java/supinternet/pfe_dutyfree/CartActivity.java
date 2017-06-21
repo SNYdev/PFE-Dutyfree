@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.NumberPicker;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -78,7 +79,12 @@ public class CartActivity extends ActionBarActivity {
     }
 
     public void goToPaymentForm(View v){
-        Intent refresh =  new Intent(this, PaymentActivity.class);
-        startActivity(refresh);
+        if (data.size() == 0) {
+            String emptyCart = getResources().getString(R.string.emptyCart);
+            Toast.makeText(this, emptyCart, Toast.LENGTH_LONG).show();
+        } else {
+            Intent refresh = new Intent(this, PaymentActivity.class);
+            startActivity(refresh);
+        }
     }
 }

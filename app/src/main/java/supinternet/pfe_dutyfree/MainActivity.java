@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         //currentLangButton.setText(R.string.currentLangButton);
 
         currentLang = Locale.getDefault().getDisplayLanguage();
+        currentLang = currentLang.substring(0,1).toUpperCase() + currentLang.substring(1).toLowerCase();
         TextView currentLangString = (TextView) findViewById(R.id.currentLang);
         currentLangString.setText(currentLang);
         TextView textCurrentLang = (TextView) findViewById(R.id.textCurrentLang);

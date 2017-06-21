@@ -18,10 +18,12 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
         String destination = "";
+        String departure = "";
         Boolean ok = false;
         Boolean france = false;
         String welcomeMsg = "";
         Map<String, String> airportMap = new HashMap<String, String>();
+
         airportMap.put("Agen", "Aéroport Agen-La Garenne AGF");
         airportMap.put("Aix", "Aérodrome d’Aix – Les Milles QXB");
         airportMap.put("Ajaccio", "Aéroport d’Ajaccio Napoléon Bonaparte AJA");
@@ -143,16 +145,18 @@ public class WelcomeActivity extends AppCompatActivity {
         if (ticketScan.toUpperCase().contains("ORY")) {
             ok = true;
             String[] ticketParts = ticketScan.toUpperCase().split("ORY");
-            destination = new StringBuilder().append(ticketParts[0].charAt(ticketParts[0].length()-3)).append(ticketParts[0].charAt(ticketParts[0].length()-2)).append(ticketParts[0].charAt(ticketParts[0].length()-1)).toString();
+            departure = new StringBuilder().append(ticketParts[0].charAt(ticketParts[0].length()-3)).append(ticketParts[0].charAt(ticketParts[0].length()-2)).append(ticketParts[0].charAt(ticketParts[0].length()-1)).toString();
+            destination = new StringBuilder().append(ticketParts[1].charAt(0)).append(ticketParts[1].charAt(1)).append(ticketParts[1].charAt(2)).toString();
         } else if (ticketScan.toUpperCase().contains("CDG")) {
             ok = true;
             String[] ticketParts = ticketScan.toUpperCase().split("CDG");
-            destination = new StringBuilder().append(ticketParts[0].charAt(ticketParts[0].length()-3)).append(ticketParts[0].charAt(ticketParts[0].length()-2)).append(ticketParts[0].charAt(ticketParts[0].length()-1)).toString();
+            departure = new StringBuilder().append(ticketParts[0].charAt(ticketParts[0].length()-3)).append(ticketParts[0].charAt(ticketParts[0].length()-2)).append(ticketParts[0].charAt(ticketParts[0].length()-1)).toString();
+            destination = new StringBuilder().append(ticketParts[1].charAt(0)).append(ticketParts[1].charAt(1)).append(ticketParts[1].charAt(2)).toString();
         }
 
         if (ok) {
             for (Map.Entry<String, String> entry : airportMap.entrySet()) {
-                if (entry.getValue().contains(destination)) {
+                if (entry.getValue().contains(departure) || entry.getValue().contains(destination)) {
                     france = true;
                     Intent franceIntent = new Intent(this, FranceWelcomeActivity.class);
                     String welcomeTxt = getResources().getString(R.string.welcomeMsg);

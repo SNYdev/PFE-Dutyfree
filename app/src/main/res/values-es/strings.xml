@@ -16,6 +16,8 @@
     <string name="welcomeMsg">Bienvenido %1$s su destinaton no se beneficia de la reducción de impuestos. Felices compras.</string>
     <string name="notOkMsg">Desafortunadamente AirStore aún no está instalado en el aeropuerto.</string>
     <string name="emptyTxt">Por favor complete el campo antes de validar.</string>
+    <string name="invalidCardInfo">Por favor, introduzca un número de billete válido.</string>
+    <string name="emptyCart">Su cesta está vacía.</string>
     <string name="currentLangButton">Siguiente</string>
     <string name="langSelect">Otros idiomas : </string>
     <string name="goToCatalogActivity">Acceder al catálogo</string>

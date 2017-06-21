@@ -30,9 +30,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:layout_alignLeft="@+id/title"
-        android:layout_below="@+id/title"
         tools:text="Blabla blablabla balalablaba"
-        />
+        android:layout_below="@+id/title"
+        android:layout_alignStart="@+id/title" />
+
+    <TextView
+        android:id="@+id/prix"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        tools:text="9"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/currency" />
+
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="€"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        tools:text="€" />
 
 </RelativeLayout>

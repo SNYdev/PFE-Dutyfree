@@ -15,7 +15,9 @@
     <string name="ticketCheckText">Bienvenue %1$s, votre destination bénéficie de la détaxe. Bon shopping.</string>
     <string name="welcomeMsg">Bienvenue %1$s, votre destinaton ne bénéfice pas de la détaxe. Bon shopping.</string>
     <string name="notOkMsg">Malheureusement, AirStore n\'est pas encore installé dans votre aéroport.</string>
-    <string name="emptyTxt">Veuillez remplir le champ avant de valider.</string>
+    <string name="emptyTxt">Veuillez entrer un numéro de ticket valide.</string>
+    <string name="invalidCardInfo">Veuillez entrer des informations valides.</string>
+    <string name="emptyCart">Votre panier est vide.</string>
     <string name="currentLangButton">Suivant</string>
     <string name="langSelect">Autres langues : </string>
     <string name="goToCatalogActivity">Accéder au catalogue</string>

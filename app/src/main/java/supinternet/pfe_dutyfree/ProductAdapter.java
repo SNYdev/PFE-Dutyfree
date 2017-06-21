@@ -34,6 +34,7 @@ public class ProductAdapter extends ArrayAdapter<Product> {
             viewHolder = new ProductViewHolder();
             viewHolder.title = (TextView) convertView.findViewById(R.id.title);
             viewHolder.description = (TextView) convertView.findViewById(R.id.description);
+            viewHolder.prix = (TextView) convertView.findViewById(R.id.prix);
             viewHolder.image = (ImageView) convertView.findViewById(R.id.image);
             convertView.setTag(viewHolder);
         }
@@ -44,6 +45,7 @@ public class ProductAdapter extends ArrayAdapter<Product> {
         //il ne reste plus qu'à remplir notre vue
         viewHolder.title.setText(product.getTitle());
         viewHolder.description.setText(product.getDescription());
+        viewHolder.prix.setText(product.getPrice());
         viewHolder.image.setImageDrawable(new ColorDrawable(product.getColor()));
 
         convertView.setOnClickListener(new View.OnClickListener() {
@@ -60,6 +62,7 @@ public class ProductAdapter extends ArrayAdapter<Product> {
     private class ProductViewHolder {
         public TextView title;
         public TextView description;
+        public TextView prix;
         public ImageView image;
     }
 

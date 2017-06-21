@@ -5,7 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class PaymentActivity extends AppCompatActivity {
 
@@ -19,7 +21,14 @@ public class PaymentActivity extends AppCompatActivity {
     }
 
     public void goToPaymentCheckActivity(View v){
-        Intent goToPaymentCheck = new Intent(this, PaymentCheck.class);
-        startActivity(goToPaymentCheck);
+        EditText creditCardNumber = (EditText) findViewById(R.id.creditCardNumber);
+        EditText creditCardCryptogram = (EditText) findViewById(R.id.creditCardCryptogram);
+        if (creditCardNumber.getText().toString().trim().length() != 16 || creditCardCryptogram.getText().toString().trim().length() != 3) {
+            String invalidCardInfo = getResources().getString(R.string.invalidCardInfo);
+            Toast.makeText(this, invalidCardInfo, Toast.LENGTH_LONG).show();
+        } else {
+            Intent goToPaymentCheck = new Intent(this, PaymentCheck.class);
+            startActivity(goToPaymentCheck);
+        }
     }
 }

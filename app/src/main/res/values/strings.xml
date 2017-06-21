@@ -15,7 +15,9 @@
     <string name="ticketCheckText">Welcome %1$s, your destination benefits from the tax-free. Good shopping.</string>
     <string name="welcomeMsg">Welcome %1$s, your destination does not benefit from the tax refund. Good shopping.</string>
     <string name="notOkMsg">Unfortunately, AirStore is not yet installed at your airport.</string>
-    <string name="emptyTxt">Please fill in the field before validating.</string>
+    <string name="emptyTxt">Please enter a valid ticket number.</string>
+    <string name="invalidCardInfo">Please enter valid information.</string>
+    <string name="emptyCart">Your cart is empty.</string>
     <string name="currentLangButton">Following</string>
     <string name="langSelect">Other language : </string>
     <string name="goToCatalogActivity">To the catalog</string>

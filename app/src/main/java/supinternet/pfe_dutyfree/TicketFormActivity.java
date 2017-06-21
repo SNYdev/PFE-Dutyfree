@@ -20,7 +20,7 @@ public class TicketFormActivity extends AppCompatActivity {
 
     public void sendTicketNumber(View v) {
         EditText ticketNumber = (EditText) findViewById(R.id.ticketNumber);
-        if (ticketNumber.getText().toString().trim().length() == 0) {
+        if (ticketNumber.getText().toString().trim().length() < 5) {
             String emptyTxt = getResources().getString(R.string.emptyTxt);
             Toast.makeText(this, emptyTxt, Toast.LENGTH_LONG).show();
         } else {
