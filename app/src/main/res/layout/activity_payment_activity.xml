@@ -27,19 +27,17 @@
 
             <EditText
                 android:id="@+id/creditCardNumber"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/creditCardNumber"
                 android:inputType="number"
-                android:textColor="#9A9A9A"
-                android:textColorHint="#9A9A9A"
                 android:maxLength="16"
-                android:layout_width="wrap_content">
-            </EditText>
+                android:textColorHint="#9A9A9A" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="64dp"
                 android:layout_marginRight="2dp"
                 android:layout_marginTop="10dp"
                 android:src="@drawable/visa_inc_logo"/>
@@ -73,11 +71,13 @@
             android:layout_height="56dp"
             android:orientation="horizontal">
             <EditText
+                android:id="@+id/endDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="mm/aaaa"
+                android:hint="@string/endDate"
                 android:inputType="date"
                 android:layout_marginTop="13dp"
+                android:maxLength="7"
                 android:textColorHint="#9A9A9A" />
         </LinearLayout>
 

@@ -7,8 +7,10 @@
     <string name="ticketNumber">Your ticket number</string>
     <string name="sendTicketNumber">Send</string>
     <string name="goToScan">Scan my ticket</string>
-    <string name="creditCardNumber">Your credit card number</string>
+
+    <string name="creditCardNumber">Card number</string>
     <string name="creditCardCryptogram">Cryptogram (3 last number on the back of your credit card)</string>
+
     <string name="sendCreditCardNumber">Finalize my order</string>
     <string name="cashPayment">cash payment</string>
     <string name="cashPaymentCheckText">Your order will be ready before your shipment. Thank you for choosing AirStore!</string>
@@ -24,6 +26,7 @@
     <string name="returnToMainActivity">Back to the homepage</string>
     <string name="total">Total</string>
     <string name="deliveryFee">Delivery fee</string>
+    <string name="endDate">MM/YYYY</string>
 
     <string name="nav_text_all">All</string>
     <string name="nav_text_tobacco">Tobacco</string>

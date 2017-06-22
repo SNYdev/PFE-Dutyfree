@@ -9,9 +9,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import java.util.regex.*;
 
 public class PaymentActivity extends AppCompatActivity {
-        @Override
+    private static Pattern pattern;
+    private static Matcher matcher;
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment_activity);
@@ -22,7 +26,11 @@ public class PaymentActivity extends AppCompatActivity {
     public void goToPaymentCheckActivity(View v){
         EditText creditCardNumber = (EditText) findViewById(R.id.creditCardNumber);
         EditText creditCardCryptogram = (EditText) findViewById(R.id.creditCardCryptogram);
-        if (creditCardNumber.getText().toString().trim().length() != 16 || creditCardCryptogram.getText().toString().trim().length() != 3) {
+        EditText endDate = (EditText) findViewById(R.id.endDate);
+        pattern = Pattern.compile("\\d{2}\\/\\d{4}");
+        matcher = pattern.matcher(endDate.getText());
+
+        if (creditCardNumber.getText().toString().trim().length() != 16 || creditCardCryptogram.getText().toString().trim().length() != 3 || !matcher.find()) {
             String invalidCardInfo = getResources().getString(R.string.invalidCardInfo);
             Toast.makeText(this, invalidCardInfo, Toast.LENGTH_LONG).show();
         } else {

@@ -7,8 +7,10 @@
     <string name="ticketNumber">Su billete úmero</string>
     <string name="sendTicketNumber">Enviar</string>
     <string name="goToScan">Escanear mi boleto</string>
-    <string name="creditCardNumber">El número de su tarjeta de crédito</string>
+
+    <string name="creditCardNumber">Número de tarjeta</string>
     <string name="creditCardCryptogram">Criptograma (3 último número en la parte posterior de la tarjeta)</string>
+
     <string name="sendCreditCardNumber">Completar mi pedido</string>
     <string name="cashPayment">Terminar mi pedido</string>
     <string name="cashPaymentCheckText">Su pedido está listo antes de embarcarse. Gracias por elegir AirStore!</string>
@@ -24,6 +26,7 @@
     <string name="returnToMainActivity">Volver a la página inicial</string>
     <string name="total">Total</string>
     <string name="deliveryFee">Cargo por despacho</string>
+    <string name="endDate">MM/AAAA</string>
 
     <string name="nav_text_all">Todo</string>
     <string name="nav_text_tobacco">Tabaco</string>
