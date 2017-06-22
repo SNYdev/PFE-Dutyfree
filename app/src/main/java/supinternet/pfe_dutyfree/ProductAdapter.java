@@ -2,6 +2,7 @@ package supinternet.pfe_dutyfree;
 
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,13 +23,12 @@ public class ProductAdapter extends ArrayAdapter<Product> {
     public List<String> shopSelection = new ArrayList<>();
     public Map<String, String> data = new HashMap<String, String>();
 
-
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-
         if(convertView == null){
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.row_product,parent, false);
         }
+        final View convertedView = convertView;
 
         ProductViewHolder viewHolder = (ProductViewHolder) convertView.getTag();
         if(viewHolder == null){
@@ -47,14 +47,17 @@ public class ProductAdapter extends ArrayAdapter<Product> {
         viewHolder.title.setText(product.getTitle());
         viewHolder.description.setText(product.getDescription());
         viewHolder.prix.setText(product.getPrice());
-        viewHolder.image.setImageDrawable(new ColorDrawable(product.getColor()));
+        Drawable myDrawable = getContext().getResources().getDrawable(product.getColor());
+        viewHolder.image.setImageDrawable(myDrawable);
+        viewHolder.image.setScaleType(ImageView.ScaleType.FIT_XY);
 
-        convertView.setOnClickListener(new View.OnClickListener() {
+        convertedView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 shopSelection.add(product.getTitle());
                 data.put(product.getTitle(), product.getPrice());
                 System.out.println("Product adapter : " + shopSelection);
+                convertedView.setBackgroundColor(getContext().getResources().getColor(R.color.colorPrimary));
             }
         });
         return convertView;

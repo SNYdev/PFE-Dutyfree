@@ -30,4 +30,9 @@ public class PaymentActivity extends AppCompatActivity {
             startActivity(goToPaymentCheck);
         }
     }
+
+    public void finalizeActivity(View v){
+        Intent goToPaymentCheck = new Intent(this, PaymentCheck.class);
+        startActivity(goToPaymentCheck);
+    }
 }

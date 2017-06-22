@@ -18,7 +18,7 @@ public class PaymentCheck extends AppCompatActivity {
     }
 
     public void returnToMainActivity(View v){
-        Intent returnToMainActivity = new Intent(this, MainActivity.class);
+        Intent returnToMainActivity = new Intent(this, TicketFormActivity.class);
         startActivity(returnToMainActivity);
     }
 }

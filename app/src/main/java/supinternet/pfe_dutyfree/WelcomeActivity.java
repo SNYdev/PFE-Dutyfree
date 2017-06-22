@@ -13,6 +13,8 @@ import java.util.Map;
 
 public class WelcomeActivity extends AppCompatActivity {
 
+    Boolean france = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +22,6 @@ public class WelcomeActivity extends AppCompatActivity {
         String destination = "";
         String departure = "";
         Boolean ok = false;
-        Boolean france = false;
         String welcomeMsg = "";
         Map<String, String> airportMap = new HashMap<String, String>();
 
@@ -136,6 +137,30 @@ public class WelcomeActivity extends AppCompatActivity {
         airportMap.put("Vannes", "Aéroport de Vannes – Meucon VNE");
         airportMap.put("Vichy", "Aéroport de Vichy — Charmeil VHY");
 
+        airportMap.put("Genève", "Aéroport de Genève GVA");
+        airportMap.put("Amsterdam", "Aéroport d’Amsterdam-Schiphol AMS");
+        airportMap.put("Athènes", "Aéroport International Eleftherios Venizelos ATH");
+        airportMap.put("Barcelone", "Aéroport de Barcelone – El Prat BCN");
+        airportMap.put("Berlin", "Aéroport de Berlin-Tegel TXL, Aéroport de Berlin-Schönefeld SXF");
+        airportMap.put("Bruxelles", "Aéroport de Bruxelles-National o Bruxelles-Zaventem BRU");
+        airportMap.put("Budapest", "Aéroport de Budapest-Ferenc Liszt BUD");
+        airportMap.put("Copenhague", "Aéroport de Copenhague-Kastrup CPH");
+        airportMap.put("Dublin", "Aéroport de Dublin DUB");
+        airportMap.put("Edimbourg", "Aéroport d’Edimbourg EDI");
+        airportMap.put("Florence", "Aéroport de Florence ou Aéroport de Peretola FLR");
+        airportMap.put("Franckfort", "Aéroport de Franckfort del Meno FRA");
+        airportMap.put("Lisbonne", "Aéroport de Portela LIS");
+        airportMap.put("Londres", "Londres-Heathrow LHR, Londres-Gatwick LGW, Londres-Stansted STN, Londres-Luton LTN, Londres-City LCY, Londres-Southend SEN");
+        airportMap.put("Madrid", "Aéroport Adolfo-Suárez de Madrid-Barajas MAD");
+        airportMap.put("Malte", "Aéroport International de Malte MLA");
+        airportMap.put("Oslo", "Aéroport de Oslo-Gardermoen OSL");
+        airportMap.put("Prague", "Aéroport International de Prague Václav Havel PRG");
+        airportMap.put("Rome", "Rome-Fiumicino FCO, Rome-Ciampino CIA");
+        airportMap.put("Stockholm", "Aéroport de Stockholm-Arlanda ARN, Aéroport de Stockholm-Skavsta NYO");
+        airportMap.put("Venise", "Aéroport International Marco Polo VCE, Aéroport de Sant’Angelo Treviso TSF");
+        airportMap.put("Vienne", "Aéroport International de Vienne-Schwechat VIE");
+        airportMap.put("Zurich", "Aéroport International de Zurich ZRH");
+
         Intent intent = getIntent();
         String ticketScan = intent.getStringExtra("ticketScan");
         String[] parts = ticketScan.split(" ");
@@ -158,11 +183,9 @@ public class WelcomeActivity extends AppCompatActivity {
             for (Map.Entry<String, String> entry : airportMap.entrySet()) {
                 if (entry.getValue().contains(departure) || entry.getValue().contains(destination)) {
                     france = true;
-                    Intent franceIntent = new Intent(this, FranceWelcomeActivity.class);
                     String welcomeTxt = getResources().getString(R.string.welcomeMsg);
                     welcomeMsg = String.format(welcomeTxt, name);
-                    franceIntent.putExtra("welcomeMsg", welcomeMsg);
-                    startActivity(franceIntent);
+                    break;
                 }
             }
             if (!france) {
@@ -176,14 +199,13 @@ public class WelcomeActivity extends AppCompatActivity {
             startActivity(unknownAirportIntent);
         }
         TextView ticketCheckStatus = (TextView) findViewById(R.id.TicketCheckStatus);
-        TextView ticketCheck = (TextView) findViewById(R.id.TicketCheck);
 
         ticketCheckStatus.setText(welcomeMsg);
-        ticketCheck.setText(ticketScan);
     }
 
     public void goToCatalogActivity(View v){
         Intent goToCatalogActivity = new Intent(this, NavigationActivity.class);
+        goToCatalogActivity.putExtra("detax", france);
         startActivity(goToCatalogActivity);
     }
 }

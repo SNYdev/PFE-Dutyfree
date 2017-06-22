@@ -26,14 +26,20 @@
             android:orientation="horizontal">
 
             <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:hint="Carte de credit"/>
+                android:id="@+id/creditCardNumber"
+                android:layout_height="wrap_content"
+                android:hint="@string/creditCardNumber"
+                android:inputType="number"
+                android:textColor="#9A9A9A"
+                android:textColorHint="#9A9A9A"
+                android:maxLength="16"
+                android:layout_width="wrap_content">
+            </EditText>
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_marginLeft="105dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginRight="2dp"
                 android:layout_marginTop="10dp"
                 android:src="@drawable/visa_inc_logo"/>
@@ -51,17 +57,6 @@
                 android:layout_marginTop="10dp"
                 android:src="@drawable/astercard_logo"/>
         </LinearLayout>
-
-        <EditText
-            android:id="@+id/creditCardNumber"
-            android:layout_height="wrap_content"
-            android:hint="@string/creditCardNumber"
-            android:inputType="number"
-            android:textColor="#9A9A9A"
-            android:textColorHint="#9A9A9A"
-            android:maxLength="16"
-            android:layout_width="wrap_content">
-        </EditText>
 
         <EditText
             android:id="@+id/creditCardCryptogram"
@@ -82,15 +77,8 @@
                 android:layout_height="wrap_content"
                 android:hint="mm/aaaa"
                 android:inputType="date"
+                android:layout_marginTop="13dp"
                 android:textColorHint="#9A9A9A" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="cvc/cvv"
-                android:inputType="number"
-                android:textColorHint="#9A9A9A"
-                android:layout_marginLeft="150dp"/>
         </LinearLayout>
 
         <Button
@@ -100,14 +88,15 @@
             android:layout_marginBottom="15dp"
             android:background="@color/yellowPrimary"
             android:onClick="goToPaymentCheckActivity"
+            android:layout_marginTop="13dp"
             android:text="@string/sendCreditCardNumber"
-            android:textColor="@color/white"></Button>
+            android:textColor="@color/white" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="New Button"
-            android:onClick="goToPaymentCheckActivity"
+            android:onClick="finalizeActivity"
             android:textColor="@color/white"
             android:background="@color/yellowPrimary"
             android:id="@+id/cashPayment" />
