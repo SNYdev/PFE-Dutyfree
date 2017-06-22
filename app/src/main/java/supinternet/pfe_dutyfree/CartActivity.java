@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class CartActivity extends ActionBarActivity {
+public class CartActivity extends NavigationActivity {
     ListView mListView;
     HashMap<String, String> data = new HashMap<String, String>();
     public float total;
@@ -59,6 +59,7 @@ public class CartActivity extends ActionBarActivity {
     private List<Cart> generateCartProducts(){
         List<Cart> cart = new ArrayList<Cart>();
         for (HashMap.Entry<String, String> entry : data.entrySet()){
+            System.out.println(cart);
             cart.add(new Cart(entry.getKey(), entry.getValue(), 1));
         }
         return cart;

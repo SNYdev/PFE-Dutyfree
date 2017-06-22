@@ -8,14 +8,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:backgroundTint="@color/greyPrimary"
+    android:background="#EDF6FC"
     tools:context="supinternet.pfe_dutyfree.CartActivity">
 
     <ListView
         android:id="@+id/listView"
         android:layout_width="fill_parent"
-        android:backgroundTint="@color/white"
-        android:layout_height="fill_parent" />
+        android:background="#EDF6FC"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/goToTicketForm"
@@ -35,7 +37,7 @@
         android:textColor="@android:color/black"
         android:textStyle="bold"
         android:text="@string/total"
-        android:background="?android:attr/detailsElementBackground"
+        android:background="#EDF6FC"
         android:textAllCaps="true"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
@@ -44,7 +46,6 @@
         android:id="@+id/textView4"
         android:layout_width="240dp"
         android:paddingLeft="10dp"
-        android:backgroundTint="@color/white"
         />
 
     <TextView
@@ -52,13 +53,12 @@
         android:gravity="center_vertical|left"
         android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:background="?android:attr/detailsElementBackground"
+        android:background="#EDF6FC"
         android:textAllCaps="true"
         android:layout_height="50dp"
         android:layout_alignTop="@+id/textView4"
         android:layout_alignParentEnd="true"
         android:layout_width="115dp"
-        android:backgroundTint="@color/white"
         android:paddingRight="10dp"
         android:textAlignment="textEnd" />
 
@@ -67,13 +67,12 @@
         android:gravity="center_vertical|left"
         android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:background="?android:attr/detailsElementBackground"
+        android:background="#EDF6FC"
         android:textAllCaps="true"
         android:layout_width="115dp"
         android:textAlignment="textEnd"
         android:layout_height="40dp"
         android:layout_above="@+id/textView4"
-        android:backgroundTint="@color/white"
         android:paddingRight="10dp"
         android:layout_alignParentEnd="true" />
 
@@ -82,13 +81,12 @@
         android:textColor="@android:color/black"
         android:textStyle="bold"
         android:text="@string/deliveryFee"
-        android:background="?android:attr/detailsElementBackground"
+        android:background="#EDF6FC"
         android:textAllCaps="true"
         android:id="@+id/deliveryFee"
         android:layout_width="240dp"
         android:layout_height="40dp"
         android:layout_above="@+id/textView4"
-        android:backgroundTint="@color/white"
         android:paddingLeft="10dp"
         android:layout_toStartOf="@+id/deliveryFeeTxt" />
 

@@ -1,6 +1,7 @@
 package supinternet.pfe_dutyfree;
 
 import android.content.Intent;
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,12 +11,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class PaymentActivity extends AppCompatActivity {
-
-    @Override
+        @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment_activity);
-
         Button cashPayement = (Button) findViewById(R.id.cashPayment);
         cashPayement.setText(R.string.cashPayment);
     }

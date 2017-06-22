@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.NumberPicker;
 import android.widget.TextView;
 
@@ -41,7 +42,6 @@ public class CartAdapter extends ArrayAdapter<Cart> {
 
         //getItem(position) va récupérer l'item [position] de la List<Tweet> tweets
         Cart cartItem = getItem(position);
-        System.out.println(cartItem);
         //il ne reste plus qu'à remplir notre vue
         viewHolder.productName.setText(cartItem.getProductName());
         Float price = Float.parseFloat(cartItem.getOriginalPrice()) * (float)cartItem.getQuantity();
@@ -82,6 +82,7 @@ public class CartAdapter extends ArrayAdapter<Cart> {
     }
 
     private class CartViewHolder{
+        public ImageView color;
         public TextView productName;
         public TextView price;
         public NumberPicker quantity;

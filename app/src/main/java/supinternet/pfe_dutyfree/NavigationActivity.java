@@ -28,6 +28,8 @@ public class NavigationActivity extends AppCompatActivity
     List<String> shopSelection;
     Map<String, String> data = new HashMap<String, String>();
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,7 +55,7 @@ public class NavigationActivity extends AppCompatActivity
 
     private List<Product> generateProducts(){
         List<Product> products = new ArrayList<Product>();
-        products.add(new Product(Color.RED, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42.0"));
+        products.add(new Product(R.drawable.chanel, "Marlboro Box", "Marlboro Box. 10 packs per carton. Under age sales prohibited. (200 cigarettes)", "42.0"));
         products.add(new Product(Color.BLUE, "Bottega 750ml", "Bottega Stardust is a unique Italian sparkling wine made from grapes from the romantic Prosecco hills.", "129.0"));
         products.add(new Product(Color.GREEN, "Grey Goose 1 Liter", "Grey Goose Vodka is the winner of the World Spirits Championships and it’s the only Platinum Medal recipient.", "34.0"));
         products.add(new Product(Color.RED, "Toblerone Pack", "Discover the Toblerone flavor variety in an attractive and travel retail exclusive pack depicting the Swiss mountain landscape.", "23.0"));
@@ -130,7 +132,6 @@ public class NavigationActivity extends AppCompatActivity
 
     public void goToCart(View v){
         Intent refresh =  new Intent(this, CartActivity.class);
-        System.out.println("Intent GoToCart : "+shopSelection);
         refresh.putExtra("shopList", (HashMap<String, String>) data);
         startActivity(refresh);
     }
