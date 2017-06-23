@@ -8,19 +8,19 @@
             android:title="@string/nav_text_all" />
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/tabac"
             android:title="@string/nav_text_tobacco" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/alcool"
             android:title="@string/nav_text_alcohol" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/application_airstore2"
             android:title="@string/nav_text_sweets" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/bijoux"
             android:title="@string/nav_text_jewerly" />
     </group>
 
@@ -32,7 +32,7 @@
                 android:title="@string/nav_text_pack"/>
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/enfant"
                 android:title="@string/nav_text_kids" />
         </menu>
     </item>

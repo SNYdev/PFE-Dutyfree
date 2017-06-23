@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c65ff540037041d2d644f135c14e3cec5a017351">
-        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_02b5b0cf965bacd8f91009c46e503113cddc8377/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_15a657c2435c0048d1fd7b0886cd9f307818489c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a8bb0ea46bcea0bb14359c0adfc8fa2cfc9f4d3">
+        <dex dex="/Users/yanis-sahnoune/Desktop/Dev/PFE-Dutyfree/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_02b5b0cf965bacd8f91009c46e503113cddc8377/classes.dex" />
     </item>
 
 </items>
